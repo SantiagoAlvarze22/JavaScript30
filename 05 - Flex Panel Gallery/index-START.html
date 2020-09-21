@@ -156,7 +156,8 @@
     function toggleOpen() {
       this.classList.toggle('open')
     }
-
+    //para abrir cada vez que la transition se finalice, ya que se ve mas armonioso
+    //toggle allow me to open and close something without adding or removing a class
     function toggleActive(e) {
       // console.log(e.propertyName)
       if (e.propertyName.includes('flex')) {
